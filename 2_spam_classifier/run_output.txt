@@ -1,0 +1,29 @@
+label
+ham     4825
+spam     747 
+
+== Naive Bayes: accuracy 0.970
+[[966   0]
+ [ 33 116]]
+              precision    recall  f1-score   support
+
+         ham      0.967     1.000     0.983       966
+        spam      1.000     0.779     0.875       149
+
+    accuracy                          0.970      1115
+   macro avg      0.983     0.889     0.929      1115
+weighted avg      0.971     0.970     0.969      1115
+
+== Logistic Regression: accuracy 0.968
+[[966   0]
+ [ 36 113]]
+              precision    recall  f1-score   support
+
+         ham      0.964     1.000     0.982       966
+        spam      1.000     0.758     0.863       149
+
+    accuracy                          0.968      1115
+   macro avg      0.982     0.879     0.922      1115
+weighted avg      0.969     0.968     0.966      1115
+
+Demo: {'Congratulations! You won a free prize, call now to claim': 'spam', 'Are we still meeting for lunch tomorrow?': 'ham'}
